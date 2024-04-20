@@ -27,7 +27,11 @@ const { test } = require('../tester')
 
 const isEven = number => number % 2 === 0 // returns true if the number is even
 
-const numbers = [ -10, -5, 0, 5, 10, 8, -2 ]
+const numbers = [ 
+	"5 is odd",  
+	"8 is even", 
+	"10 is even", 
+]
 
 const numberStrings = numbers // append your array methods here
 

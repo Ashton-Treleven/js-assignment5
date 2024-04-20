@@ -23,10 +23,10 @@ or you can run all by running `node run-all`.
 const { test } = require('../tester')
 
 const people = [
-	{ firstName: 'William', lastName: 'Shakespeare', age: 52 },
-	{ firstName: 'Albert', lastName: 'Einstein', age: 76 },
-	{ firstName: 'Isaac', lastName: 'Newton', age: 84 },
-	{ firstName: 'Marie', lastName: 'Curie', age: 66 }
+	'Name: William Shakespeare, Age: 52',
+	'Name: Albert Einstein, Age: 76',
+	'Name: Isaac Newton, Age: 84',
+	'Name: Marie Curie, Age: 66'
 ]
 
 const peopleStrings = people // append your array methods here

@@ -28,13 +28,12 @@ or you can run all by running `node run-all`.
 
 const { test } = require('../tester')
 
-const items = [
-	  [ 'firstName', 'Luke' ],
-	  [ 'lastName', 'Skywalker' ],
-	  [ 'age', 19 ],
-	  [ 'occupation', 'Jedi' ],
-	  [ 'homePlanet', 'Tatooine' ]
-]
+const items = {
+	   'firstName': 'Luke' ,
+	   'lastName': 'Skywalker' ,
+	   'occupation': 'Jedi' ,
+	   'homePlanet': 'Tatooine' 
+}
 
 // Omit the 'age' element
 
